@@ -49,7 +49,7 @@ session_start();
             <th></th>
         </tr>
         <?php
-        if (isset($_SESSION["panier"])) {
+        if (isset($_SESSION["panier"]) && !empty($_SESSION["panier"])) {
             if ($_SESSION['panier'] > 1) {
                 include "connexionPDO.php";
                 $bdd = connect();

@@ -33,6 +33,11 @@ if (!empty($_SESSION['succes'])) {
             <a href="index.php">
                 <img border="0" alt="logo" src="Images/logo.jpg" width="200" height="100">
             </a>
+            <a href="../index.html">
+                <button class="btn btn-outline-success" type="button">
+                    Retour
+                </button>
+            </a>
             <form class="d-flex" role="search" method="POST" action="recup.php">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
